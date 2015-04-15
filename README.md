@@ -58,7 +58,7 @@ app.service('mainService', function($http) {
 });
 ```
 
-What we are doing here is returning an AJAX request by using $http. The METHOD part tells the API we're hitting what kind of request we are making. There are a lot of different types of requests, but the most common are GET (getting data), POST (creating data), PUT (updating data), and delete (don't make me say it). 
+What we are doing here is returning an AJAX request by using $http. The METHOD part tells the API we're hitting what kind of request we are making. There are a lot of different types of requests, but the most common are GET (getting data), POST (creating data  ), PUT (updating data), and delete (don't make me say it). 
 
 In this example, we are getting data. All we want to do is get the current user data. 
 
